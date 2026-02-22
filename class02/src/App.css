@@ -1,0 +1,10 @@
+input , button{
+    padding: 20px 30px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+input{
+    margin-right: 15px;
+}
