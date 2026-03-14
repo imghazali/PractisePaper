@@ -2,18 +2,13 @@ import React from "react";
 
 const HomePage = () => {
   const handleSubmit = (e) => {
-    if (input.value === "") {
-      alert("Please fill the form");
-    } else {
-      alert("Form Submitted");
-    }
-
+    alert('your data is submitted successfully')
     e.preventDefault();
   };
 
   return (
     <div className="login-section">
-      <form onSubmit={handleSubmit}>
+      <form action='{<Dashboard/>}' onSubmit={handleSubmit}>
         <input type="text" placeholder="enter your name" />
         <input type="password" placeholder="Enter your password" />
         <input
